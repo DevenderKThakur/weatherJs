@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <title>Twitter Login Page </title>
+</head>
+<body>
+    <div class="login__box">
+        <h2>User Data</h2>
+        <button><img src="https://logowik.com/content/uploads/images/google-chrome-v100-new-20224493.jpg" alt=""  class="logo">Sign In With Google</button>
+        <button><img src="https://media.designrush.com/inspiration_images/134802/conversions/_1511456315_653_apple-preview.jpg" alt=""  class="logo">Sign In With Apple</button>
+        <hr>
+        <span>Or</span>
+        <form>
+            <input type="text" name="" id="" placeholder="Phone,Email or Phone Number ">
+            <button id="btn"><p id="btnText" onclick="changeText()">Submit</p></button>
+        </form>
+        <button>Forget Password</button>
+        <p>Don't have an account <a href="">Sign UP</a></p>
+    </div>
+</body>
+<script type="text/javascript">
+     function changeText(){
+        document.getElementById('btnText').innerHTML = 'Thanks';
+     }
+</script>
+</html>
